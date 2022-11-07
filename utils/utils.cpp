@@ -43,3 +43,19 @@ int file_count(std::string path)
 
     return count;
 }
+
+int show_image(std::string image_path)
+{
+    cv::Mat image = cv::imread(image_path, cv::IMREAD_GRAYSCALE);
+
+    if (image.empty())
+    {
+        std::cout << "Could not read the image: " << image_path << std::endl;
+        return 1;
+    }
+
+    cv::imshow("Display window", image);
+    int k = cv::waitKey(0);
+
+    return 0;
+}
