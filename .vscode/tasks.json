@@ -30,7 +30,8 @@
 
 
                 "-g",
-                "${file}",
+                "main.cpp",
+                "utils\\utils.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
