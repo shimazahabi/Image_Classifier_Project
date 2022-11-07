@@ -2,6 +2,6 @@
 
 int main()
 {
-    std::cout << "Hello, World" << std::endl;
+    show_image("mnist\train\0\1.jpeg")
     return 0;
 }
