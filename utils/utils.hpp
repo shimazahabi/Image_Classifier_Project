@@ -1,6 +1,7 @@
 #pragma once
 
 #define IMAGE_SIZE 28
+#define BATCH_SIZE 100
 
 #include <iostream>
 #include <iomanip>

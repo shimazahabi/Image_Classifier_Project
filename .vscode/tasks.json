@@ -32,6 +32,7 @@
                 "-g",
                 "main.cpp",
                 "utils\\utils.cpp",
+                "utils\\timer.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
