@@ -18,7 +18,7 @@ In this case, we just give the algorithm pairs of images of the same person and 
 Image classification is the task of classifying an input image among certain classes –given an input image we should put a label on the image from a set of predefined labels. 
 As an example, consider the case of classifying an image based on which number is present in the image. To be more precise, the algorithm is given an image as the input and it should predict which digit is present in the image among ten different digits zero, one, two, …. 
 
-[image_of_a_seven](https://github.com/pooriaazami/image_classifier/blob/main/assets/sample.jpeg)
+![image_of_a_seven](https://github.com/pooriaazami/image_classifier/blob/main/assets/sample.jpeg)
 
 
 # Project Overview
