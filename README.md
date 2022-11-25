@@ -18,7 +18,7 @@ In this case, we just give the algorithm pairs of images of the same person and 
 Image classification is the task of classifying an input image among certain classes –given an input image we should put a label on the image from a set of predefined labels. 
 As an example, consider the case of classifying an image based on which number is present in the image. To be more precise, the algorithm is given an image as the input and it should predict which digit is present in the image among ten different digits zero, one, two, …. 
 
-[image_of_a_seven](.\\assets\\sample.jpeg)
+[image_of_a_seven](https://github.com/pooriaazami/image_classifier/blob/main/assets/sample.jpeg)
 
 
 # Project Overview
@@ -48,9 +48,9 @@ Start menu: Once your application starts this menu opens
     - Explore images from dataset: The use should be able to choose the dataset, train or test set, class of the image and number of the image.
     - Train: In this menu use can start feature extraction for the whole training set and save the extracted features in a file or load one. Also, in this menu use should be able to set the parameter K. (You can design sub-menus as you wish)
     - Test: In this menu use should be able to choose a dataset, then after entering the absolute path of the input image, he or she should see the classification result.
-4. Exit: This option returns to the last menu (Start menu).
-5. Info: Once this menu opened, your information (name, family name, email) should be printed in the screen.
->> 	Exit: This option closes the app.
+    -  Exit: This option returns to the last menu (Start menu).
+2. Info: Once this menu opened, your information (name, family name, email) should be printed in the screen.
+3. Exit: This option closes the app.
 
 # Apendix
 
@@ -82,14 +82,14 @@ Consider that you want to learn a robot how to walk, in this problem you do not 
 The MNIST dataset consist of 28-by-28-pixel gray scale images. There is written a digit (a number between 0 to 9) written in each image.
 There are totally 60,000 images to train the algorithm and 10,000 images to test the algorithm. 
 
-![some_images_from_mnist_dataset](.\\aseets\\mnist.png)
+![some_images_from_mnist_dataset](https://github.com/pooriaazami/image_classifier/blob/main/assets/mnist.png)
 
 ## Fashion MNIST Dataset
 
 The MNIST dataset consist of 28-by-28-pixel gray scale images. Each picture contains an image of a cloth among ten different classes. (Ankle Boot, Bag, Coat, Dress, Pullover, Sandal, Shirt, Sneaker, Trouser, T-shirt)
 There are totally 60,000 images to train the algorithm and 10,000 images to test the algorithm.
 
-![some_images_from_fashion_mnist_dataset](.\\assets\\fashion_mnist.png)
+![some_images_from_fashion_mnist_dataset](https://github.com/pooriaazami/image_classifier/blob/main/assets/fashion_mnist.png)
 
 Note that you can use [this link](https://colab.research.google.com/drive/1u8KlFWUxxSCBtnefj61L_t4H0AP2U_K8?usp=sharing) to explore the datasets.
 
