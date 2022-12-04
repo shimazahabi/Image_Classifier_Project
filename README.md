@@ -134,7 +134,7 @@ For this phase you should implement the following:
 
     $$Mean(A) = \frac{1}{n} \sum_{i=0}{10}{a_i}$$
 
-    $$$Std(A) = \sqrt{\frac{1}{n - 1}\sum_{i=1}^{n}{{(a_i - Mean(A))}^2}}$
+    $$Std(A) = \sqrt{\frac{1}{n - 1}\sum_{i=1}^{n}{{(a_i - Mean(A))}^2}}$$
 
 4. Use the function load_image from the file utils.cpp loads an input image and stores it in a matrix
 5. Use load_image and functions implemented from the last parts to calculate the distance between two images from the dataset
