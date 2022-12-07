@@ -95,7 +95,7 @@ For this phase you should implement the following:
 4. Use the function load_image from the file utils.cpp loads an input image and stores it in a matrix
 5. Use load_image and functions implemented from the last parts to calculate the distance between two images from the dataset
 
-# Buenos
+# Bonus 
 1.  Clear the screen when a menu opens. (It should work both in Linux and Windows)
 2.  Use multiple files to write your code.
 3.  Implement test functions for mathematical operations.
