@@ -1,0 +1,1 @@
+g++ .\main.cpp .\image_classification.cpp .\image_classification.cpp.h .\utils\utils.cpp .\utils\timer.cpp -std=c++20
